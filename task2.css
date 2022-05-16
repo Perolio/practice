@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(233, 213, 230);
+}
+.product h2{
+    font-size: 6.2vh;
+    font-family: sans-serif;
+    color: purple;
+    margin: 10vh 0vh 0vh 18vh;
+    padding: 1% 2% 1% 2%;
+    width: 350px;
+}
+.product p{
+    margin: 1vh 0vh 0vh 22.5vh;
+    font-family: monospace;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 1.9vh;
+    width: 500px;
+}
+.rev1 p{
+    position: absolute;
+    font-weight: bold;
+    background-color: rgb(238, 229, 238);
+    top: 12%;
+    left: 62%;
+    padding:  1.5vh 7vh 1.5vh 3vh; 
+    /* padding:  6px 6px 6px 2px;  
+    margin: 1% 8% 0% 72%; */
+    border-radius: 1vh;
+    font-size: 18px;
+    font-family: 'Gill Sans';
+    margin-top: 1.5%;
+}
+span{
+    color: orange;
+    background-color:  rgb(238, 229, 238);
+}
+.Guru p{
+    position: absolute;
+    font-weight: bold;
+    background-color: rgb(238, 229, 238); 
+    top: 19.5%;
+    left: 65%;
+    padding: 1.5vh 7vh 1.5vh 2vh;
+    border-radius: 1vh;
+    font-size: 18px;
+    font-family: 'Gill Sans';
+    margin-top: 1.8%;
+}
+.Tech{
+    color: rgb(1, 1, 12);
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 27%;
+    left: 69%;
+    font-size: 18px;
+    font-family: 'Gill Sans';  
+    margin-top: 1.9%; 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 5%;    
+}
+.box{
+    background-color:  rgb(65, 4, 65);
+    width: 400px;
+    height: 250px;
+    border-radius: 12px;
+    margin: 30px;
+}
+h2{
+    margin: 9.5% 0% 0% 32%;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: transparent;
+}
+h3{
+    margin: 0% 0% 0% 32%;
+    font-size: 18px;
+    color: rgb(232, 173, 247);
+    background-color: transparent;
+}
+.colt{
+    margin: 9% 10% 0% 10%;
+    font-size: 18px;
+    justify-content: center;
+    color: aliceblue;
+    background-color: transparent;
+
+}
+.img{
+    width: 80px;
+    border-radius: 45% ;
+    position: absolute;
+    margin: 2% 0% 0% 2%;
+
+}
+.ire{
+    margin: 9% 10% 0% 10%;
+    font-size: 18px;
+    justify-content: center;
+    color: aliceblue;
+    background-color: transparent;
+}
+.ann{
+    margin: 9% 10% 0% 10%;
+    font-size: 18px;
+    justify-content: center;
+    color: aliceblue;
+    background-color: transparent;
+}
+@media screen and (max-width:600px) {
+    .product h2{
+        font-size: 30px;
+        width: 250px;
+        margin: 8vh 10vh 0vh 9vh ;
+    }    
+    .product p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 320px;
+        margin: 1% 10% 0% 10% ;
+        text-align: center;
+        
+    }
+    .container{
+        display: inline-block;
+        margin-top: 50%;
+    }
+    .stars{
+        position: absolute;
+        margin-left: 10% ;
+    }
+    .rev1 p{
+        width: 250px;
+        margin-bottom: 10%;
+    }
+    .Guru p{
+        width: 250px;
+    }
+    .Tech{
+        width: 250px;
+    }
+
+
+    .box{
+        width: 350px;
+        height: 200px;
+    }
+}

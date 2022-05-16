@@ -1,0 +1,169 @@
+.nav{
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    color: rgb(154, 236, 122);
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0px, 80px;
+    margin: 60px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+ul{
+    float: right;
+    margin-right: 20PX;
+}
+li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 10px;
+}
+li a{
+    list-style: none;
+    color: rgb(8, 54, 8);
+    font-size: 17px;
+    font-family: arial;
+    font-weight: bold;
+    padding: 7px 13px;
+    text-decoration: none;
+}
+a.active,a:hover{
+    color: #f81c0c;
+    transition: .2s;
+}
+.load{
+    float: right;
+    line-height: 30px;
+    margin-right: -33%;
+    
+}
+#air{
+    font-size: 75px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    color: darkgreen;
+}
+#smaller{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: darkgreen;
+}
+#star{
+    font-size: 23px;
+    color: rgb(250, 185, 7);
+}
+#text{
+    font-size: 20px;
+    font-family: 'Gill Sans';
+    font-weight: bold;
+    color: darkgreen;
+}
+#price{
+    font-size: 38px;
+    font-weight: bolder;
+    color: darkgreen;
+    padding-top: -8%;
+}
+#men{
+    position: absolute;
+    padding-top: 40%;
+    float: right;
+    padding: 4%;
+    margin-left: 35.7%;
+    font-size: 58px;
+    font-family: Georgia ;
+    color:rgb(212, 243, 200);
+
+}
+#shoes{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    padding-left: 15%;
+    padding-top: 0%;
+    font-family: 'Times New Roman';
+    font-size: 20vh;
+    color: rgb(154, 236, 122);
+}
+#circle{
+    font-size: 380px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    color:  rgb(33, 102, 5) ;
+}
+.button{
+    padding-left: 40%;
+    border: none;
+}
+#green{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 5px;
+}
+#red{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 5px;
+
+}
+#armygreen{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 5px;
+}
+#yellow{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 5px;
+}
+#add{
+    float: right;
+    padding: 4px 20px;
+    color: white;
+    background-color: darkgreen;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#add:hover{
+    border: 2px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.footer{
+    padding-left:-1.5%;
+    margin-top: 15px;
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(2, 43, 2);
+}
+#size{
+    padding-left: 2%;
+    font-size: 15px;
+}
+#sizes{
+    width: 70px;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #8888;
+    border: none;
+}
+#quantity{
+    font-size: 15px;
+    margin:  2% ;
+
+}
+#plenty{
+    width: 70px;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #8888;
+    border: none;
+}

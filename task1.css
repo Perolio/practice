@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(209, 214, 185);
+}
+.bbn{
+    font-size: 3vh;
+    font-family: Georgia;
+    font-weight: bold;
+    margin: 5vh 0vh 0vh 12vh;
+}
+.reg{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 120px 30px 0px 40vh;
+}
+.txt{
+    margin-top: 10vh;
+}
+.reg h2{
+    /* margin: 20vh 0vh 4vh 120vh; */
+    margin-bottom: 3%;
+    font-weight: bolder;
+    font-size: 9vh;
+    font-family: 'Gill Sans';
+    color: rgb(248, 157, 53);
+}
+.reg span{
+    font-size: 6vh;
+    color: black;
+    font-weight: bolder;
+}
+.reg p{
+    /* margin: 1vh 0vh 4vh 120vh; */
+    width: 250px;
+    font-family: monospace;
+    font-size: 2.5vh ;
+    font-weight: bold;
+}
+.btn{
+    margin-top: 3%;
+    /* margin: 2vh 0vh 0vh 120vh; */
+    padding: 20px 15px 20px 15px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: small;
+    font-family: 'Gill Sans';
+    transition: 1s ease-in-out;
+}
+.btn:hover{
+    color: rgb(255, 117, 5);
+}
+.sd{
+
+    height: 60vh;
+    /* margin: -26% 0% 0% 18%; */
+}
+@media screen and (max-width: 600px) {
+    .reg{
+        height: 500px;
+        display: inline-block;
+        margin: 0px 0px 0px -1px;
+    }
+    .sd{
+        height: 50vh;
+        margin-left: 5vh;
+    }
+    .reg h2{
+        margin-top: -25%;
+        margin-bottom: 3%;
+        margin-left: 8vh;
+        font-weight: bolder;
+        font-size: 4vh;
+        font-family: 'Gill Sans';
+        color: rgb(248, 157, 53);
+
+    }
+    .reg span{
+        font-size: 3vh;
+        color: black;
+        font-weight: bolder;
+    }
+    .btn{
+        margin-top: 3%;
+        margin-left: 8vh;
+        /* margin: 2vh 0vh 0vh 120vh; */
+        padding: 15px 10px 15px 10px;
+        background-color: black;
+        color: aliceblue;
+        border: none;
+        font-size: 10px;
+        font-family: 'Gill Sans';
+        transition: 1s ease-in-out;
+    }
+    .reg p{
+        /* margin: 1vh 0vh 4vh 120vh; */
+        margin-left: 8vh;
+        width: 200px;
+        font-family: monospace;
+        font-size: 2.5vh ;
+        font-weight: bold;
+    }
+}

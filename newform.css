@@ -1,0 +1,103 @@
+*{
+    padding: 0 0px;
+    margin: 10px 16%;
+    background-color:rgb(26, 25, 25);
+}
+.header{
+    
+    position: absolute;
+    text-align: left;
+    border: 2px solid;
+    padding-top: 50px;
+    padding-right: 70px;
+    margin-left: 150px;
+    margin-top: 60px ;
+    border-color:mediumturquoise;
+    width: 50vh;
+    height: 60vh;
+    background: rgb(26, 25, 25);
+    color: white
+}
+h1{
+    position: relative;
+    font-size: 25px;
+    margin-left: -40%;
+
+}
+#username{
+    position: relative;
+    font-size: 18px;
+    margin-left: -40%;
+}
+#username1{
+    background: transparent;
+    position: relative;
+    margin-left: -40%;
+    border-color: transparent;
+    border-bottom: 1px solid #ffff;
+    height: none;
+    width: 50vh;
+    color: yellowgreen;
+}
+#email{
+    position: relative;
+    font-size: 18px;
+    margin-left: -40%;
+}
+#email1{
+    background: transparent;
+    position: relative;
+    margin-left: -40%;
+    border-color: transparent;
+    border-bottom: 1px solid #ffff;
+    height: none;
+    width: 50vh;
+    color: yellowgreen;
+}
+#password{
+    position: relative;
+    font-size: 18px;
+    margin-left: -40%;
+}
+#password1{
+    position: relative;
+    margin-left: -40%;
+    border-color: transparent;
+    border-bottom: 1px solid #ffff;
+    height: none;
+    width: 50vh;
+    background: transparent;
+    color: yellowgreen;
+}
+#button{
+    font-size: 18px;
+    background-color: aquamarine;
+    padding: 3px 140%;
+    margin: 10% -90%;
+    border: none;
+    font-weight: bold;
+}
+#button:hover{
+    background: #ff6347;
+    transition: 1s;
+}
+.login{
+    margin: -40%;
+    text-decoration: none;
+    color: mediumseagreen;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+.login:hover{
+    color: #ff6347;
+    transition: 0.5s;
+}
+.check{
+    padding-left: -10%;
+    margin-left: -60%;
+}
+.check .label{
+    margin-left: -15%;
+    font-size: 15px;
+}

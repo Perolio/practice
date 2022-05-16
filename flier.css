@@ -1,0 +1,58 @@
+.button{
+    text-align: center;
+    border-radius: 30px;
+    background-size: 20%;
+}
+#head{
+    padding: 40px;
+}
+#head2{
+    padding: 0px;
+}
+.box1{
+    background-image: url(foodie2.jpeg); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 43ch; 
+}
+.textline{
+    padding-left: 10px;
+    margin-top: 3px;
+    
+}
+.h3{
+    text-align: center;
+   
+}
+#image{
+    position: absolute;
+    top: 51%;
+    left: 5%;
+}
+#para{
+    padding-left: 31%;
+    font-size: 22px;
+    position: absolute;
+    top: 56%;
+    left: -1%;
+
+}
+#bobo{
+    position: absolute;
+    top: 47%;
+    left: 30%;
+}
+#bobo1{
+    position: absolute;
+    top: 52%;
+    left: 30%;
+}
+#button1{
+    margin-top: 20%;
+    margin-left: 50%;
+    font-size: 20px;
+    padding: 0px 15px;
+    border: none;
+    background-color: rgb(247, 83, 7);
+    text-decoration: white;    
+} 
