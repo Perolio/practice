@@ -116,7 +116,7 @@ h3{
 }
 @media screen and (max-width:600px) {
     .product h2{
-        font-size: 30px;
+        font-size: 34px;
         width: 250px;
         margin: 8vh 10vh 0vh 9vh ;
     }    
@@ -130,26 +130,27 @@ h3{
     }
     .container{
         display: inline-block;
-        margin-top: 50%;
+        margin-top: 40%;
     }
     .stars{
         position: absolute;
-        margin-left: 10% ;
+        margin-left: 5% ;
+        width: 100px;
     }
     .rev1 p{
         width: 250px;
-        margin-bottom: 10%;
+        margin-bottom: 18%;
     }
     .Guru p{
         width: 250px;
     }
     .Tech{
         width: 250px;
+        margin-top: 10%;
     }
-
-
     .box{
         width: 350px;
         height: 200px;
     }
+ 
 }
