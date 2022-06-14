@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+h4{
+   margin: 30px 0px 0px 40px;
+   font-size: 25px;
+   font-family: monospace; 
+}
+ul{
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: -21px;
+}
+ul li{
+    display: inline-block;
+    padding: 1px 40px;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    transition: 0.5s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(235, 60, 6);
+    text-shadow: 2px 2px 15px rgb(54, 52, 52);
+}
+.bob h6{
+    margin: 43px 0px 0px 250px ;
+    font-size: 15px;
+    font-family: 'Trebuchet MS' ;
+    color: rgb(71, 194, 243);
+}
+.bob .para{
+    margin: 10px 0px 10px 250px;
+    font-size: 30px;
+    font-family: trebuchet MS;
+    font-weight: bold;
+    width: 310px;
+}
+.img{
+    justify-content: center;
+    margin: 20px 25px 20px 31px;
+    width: 96%;
+    height: 40vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 11px lightgray;
+}
+.bob h3{
+    margin: 20px 0px 0px 250px;
+    font-size: 30px;
+    font-family: trebuchet MS;
+    font-weight: bold;
+    width: 210px;
+}
+.bob p{
+    width: 250px;
+    margin: 10px 0px 0px 250px;
+}
+.join{
+    margin-left: 250px ;
+}
+.join h5{
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.email{
+    width: 250px;
+    color: rgb(8, 1, 1);
+    border: transparent;
+    background-color: rgb(219, 219, 219);
+    height: 29px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right: none;
+    font-size: 15px;
+}
+.btn{
+    height: 29px;
+    margin-left: -6px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(52, 95, 238);
+    color: aliceblue;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    width: 60px;
+}
+.email:focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    background-color: orange;
+    color: black;
+}
+h1{
+    width: 250px;
+    margin: 90px 0px 0px 120px;
+    font-family: monospace;
+    font-size: 25px;
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;  
+}
+#ux{
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px lightgray ;
+    width: 290px;
+    height: 339px;
+    margin: 33px 0px 0px 45px;
+}
+#frnds{
+    box-shadow: 0px 1px 4px lightgray ;
+    border-radius: 10px;
+    width: 290px;
+    height: 339px;
+    margin: 33px 0px 0px 45px;
+}
+#bcknds{
+    box-shadow: 0px 1px 4px lightgray ;
+    border-radius: 10px;
+    width: 290px;
+    height: 339px;
+    margin: 33px 0px 0px 45px;
+}
+h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 18px;
+}
+p{
+    width: 250px;
+    margin-left: 18px ;
+    font-size: 18px;
+}
+.btbtn{
+    margin-left: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgb(175, 171, 171);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    transition: 1s ease-in-out;
+}
+.btbtn:hover{
+    color: white;
+    background-color:  rgb(39, 110, 243) ;
+}
+.fa-pencil{
+    background-color: rgb(39, 110, 243);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 13px;
+    margin: 20px 0px 0px 18px;
+}
+.fa-list{
+    background-color: rgb(243, 70, 39);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 13px;
+    margin: 20px 0px 0px 18px;
+} 
+.fa-code{
+    background-color: rgb(43, 202, 11);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 13px;
+    margin: 20px 0px 0px 18px;
+}
